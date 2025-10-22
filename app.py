@@ -18,25 +18,6 @@ if name:
     st.divider()
     know = st.radio("자신의 피부 타입을 알고 계신가요?", ["네" , "아니요"])
 
-    if know == "아니요":import streamlit as st
-import time
-
-st.set_page_config(page_title="피부 타입별 화장품 추천 시스템")
-
-st.title(" 피부 타입별 화장품 추천 시스템")
-st.write("청계중 영재학급 5조 산출물")
-st.divider()
-
-# 닉네임 입력
-name = st.text_input("닉네임을 입력해주세요 :")
-
-if name:
-    st.write(f"안녕하세요, {name}님 :)")
-    st.write("저는 피부 타입에 맞는 화장품을 알려주는 시스템입니다!")
-    st.info("🞷 [Tip] 아래 질문에 따라 선택지를 골라주세요!!")
-
-    st.divider()
-    know = st.radio("자신의 피부 타입을 알고 계신가요?", ["네" , "아니요"])
 
     if know == "아니요":
         st.write("피부 타입 확인을 위해 간단한 테스트를 시작하겠습니다!")
