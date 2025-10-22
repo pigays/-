@@ -6,6 +6,7 @@ st.set_page_config(page_title="피부 타입별 화장품 추천 시스템")
 st.title(" 피부 타입별 화장품 추천 시스템")
 st.write("청계중 영재학급 5조 산출물")
 st.divider()
+skin = None
 
 # 닉네임 입력
 name = st.text_input("닉네임을 입력해주세요 :")
