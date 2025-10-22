@@ -60,6 +60,7 @@ if name:
             st.write("건성 피부의 추천 화장품은 수분 크림, 히알루론산 토너, 보습 크림 입니다 :)")
             st.write("")
             if st.button("구체적인 제품 예시 보기"):
+                st.divider()
                 st.write("예시 제품:")
                 st.write("1) 메디큐브 - PDRN 핑크 앰플 30ml 리필 기획")
                 st.write("  올리브영 판매가 : 24200 원")
@@ -79,6 +80,7 @@ if name:
             st.write("지성 피부의 추천 화장품은 수분 크림, 티트리 토너나 세럼, 나이아신아마이드 성분이")
             st.write(" 포함된 제품 입니다 :)")
             if st.button("구체적인 제품 예시 보기"):
+                st.divider()
                 st.write("예시 제품:")
                 st.write("'1) 라로슈포제 - 에빠끌라포밍 젤")
                 st.write("  올리브영 판매가 : 31000 원")
@@ -99,6 +101,7 @@ if name:
             st.write()
             st.write("복합성 피부의 추천 화장품은 수분크림, 피부 진정 세럼, 약산성 폼클렌저 입니다 :)")
             if st.button("구체적인 제품 예시 보기"):
+                st.divider()
                 st.write("예시 제품:")
                 st.write("'1) 이니스프리 - 히알루론산 그린티 씨드 수분크림 50ml")
                 st.write("  올리브영 판매가 : 27000 원")
@@ -119,6 +122,7 @@ if name:
             st.write('성분이 들어간 제품 입니다 :)')
             st.write("")
             if st.button("구체적인 제품 예시 보기"):
+                st.divider()
                 st.write("예시 제품:")
                 st.write("1) 웰라쥬 - 리얼 히알루로닉 블루 100 앰플 75ml 더블 기획")
                 st.write("  올리브영 판매가 : 50,000 원")
