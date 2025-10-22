@@ -61,7 +61,7 @@ if name:
             st.write()
             st.write("건성 피부의 추천 화장품은 수분 크림, 히알루론산 토너, 보습 크림 입니다 :)")
             st.write("")
-            if st.button("[건성] 구체적인 제품 예시 보기"):
+            if st.button("[건성] 구체적인 제품 예시 보기", key="dry_example"):
                 st.divider()
                 st.write("예시 제품:")
                 st.write("1) 메디큐브 - PDRN 핑크 앰플 30ml 리필 기획")
@@ -81,7 +81,7 @@ if name:
             st.write()
             st.write("지성 피부의 추천 화장품은 수분 크림, 티트리 토너나 세럼, 나이아신아마이드 성분이")
             st.write(" 포함된 제품 입니다 :)")
-            if st.button("[지성] 구체적인 제품 예시 보기"):
+            if st.button("[지성] 구체적인 제품 예시 보기", key="oily_example"):
                 st.divider()
                 st.write("예시 제품:")
                 st.write("'1) 라로슈포제 - 에빠끌라포밍 젤")
@@ -102,7 +102,7 @@ if name:
             st.write('복합성 피부는 유수분 밸런스를 맞추는 것이 중요합니다.')
             st.write()
             st.write("복합성 피부의 추천 화장품은 수분크림, 피부 진정 세럼, 약산성 폼클렌저 입니다 :)")
-            if st.button("[복합성] 구체적인 제품 예시 보기"):
+            if st.button("[복합성] 구체적인 제품 예시 보기", key="bokab_example"):
                 st.divider()
                 st.write("예시 제품:")
                 st.write("'1) 이니스프리 - 히알루론산 그린티 씨드 수분크림 50ml")
@@ -123,7 +123,7 @@ if name:
             st.write('민감성 피부의 추천 화장품은 저자극 제품, 알로에 수분 크림, 병풀추출물')
             st.write('성분이 들어간 제품 입니다 :)')
             st.write("")
-            if st.button("[민감성] 구체적인 제품 예시 보기"):
+            if st.button("[민감성] 구체적인 제품 예시 보기", key="sensitive_example"):
                 st.divider()
                 st.write("예시 제품:")
                 st.write("1) 웰라쥬 - 리얼 히알루로닉 블루 100 앰플 75ml 더블 기획")
