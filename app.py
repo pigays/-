@@ -53,10 +53,10 @@ if name:
         # 상태가 저장된 경우만 다음 단계로 이동
         if "skin" in st.session_state:
             skin = st.session_state["skin"]
-
+            if st.button("화장품 추천 보기"):
+                st.session_state["show_recommend"] = True
     
-    if st.button("화장품 추천 보기"):
-        st.session_state
+    if st.session_state.get("show_recommend", False):
         st.divider()
         if skin == "건성":
             st.write('건성 피부는 유/수분이 부족해서 얼굴이 자주 당기고 각질이')
