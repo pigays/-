@@ -58,8 +58,6 @@ if name:
     
     if st.session_state.get("show_recommend", False):
         st.divider()
-  if st.session_state.get("show_recommend", False):
-        st.divider()
         if skin == "건성":
             st.write('건성 피부는 유/수분이 부족해서 얼굴이 자주 당기고 각질이')
             st.write('생기기 쉽다는 특징이 있습니다.')
