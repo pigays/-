@@ -36,7 +36,7 @@ if name:
         if st.button("피부 타입 결과 보기"):
             if q9 == 'o':
                 skin = '복합성'
-            elif q7 == 'o' and q8 == 'o':
+            elif q7 == 'o' or q8 == 'o':
                 skin = '민감성'
             elif (q2 == 'o' and q1 == 'o') or (q3 == 'o' and q4 == 'x' and q5 == 'x' and q6 == 'x'):
                 skin = '건성'
