@@ -51,10 +51,10 @@ if name:
         skin = st.selectbox("당신의 피부 타입은 무엇입니까?", ["지성", "건성", "복합성", "민감성", "중성"])
         st.session_state["skin"] = skin
         # 상태가 저장된 경우만 다음 단계로 이동
-if "skin" in st.session_state:
-    skin = st.session_state["skin"]
+    if "skin" in st.session_state:
+        skin = st.session_state["skin"]
     if st.button("화장품 추천 보기"):
-    st.session_state["show_recommend"] = True
+        st.session_state["show_recommend"] = True
     
     if st.session_state.get("show_recommend", False):
         st.divider()
