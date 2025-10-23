@@ -40,8 +40,6 @@ if name:
                 skin = '민감성'
             elif (q2 == 'o' and q1 == 'o') or (q3 == 'o' and q4 == 'x' and q5 == 'x' and q6 == 'x'):
                 skin = '건성'
-            elif (q1 == 'o' or q2 == 'x') and q4 == 'o':
-                skin = '수분 부족형 지성'
             elif (q1 == 'x' and q2 == 'x' and q3 == 'x' and q4 == 'o'):
                 skin = '지성'
             else:
