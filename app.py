@@ -70,7 +70,7 @@ if name:
 
             if st.session_state.get("show_dry", False):  # ✅ 클릭 시 표시 유지
                 st.divider()
-                st.write("예시 제품:")
+                st.write("추천 제품:")
                 st.write("1) 메디큐브 - PDRN 핑크 앰플 30ml 리필 기획")
                 st.write("  올리브영 판매가 : 24200 원")
                 st.write("  올리브영 평점 : 4.7점(16,315건)")
@@ -78,8 +78,8 @@ if name:
                 st.write("2) 이니스프리 - 히알루론산 그린티 씨드 수분크림 50ml")
                 st.write("  올리브영 판매가 : 27000 원")
                 st.write("  올리브영 평판 : 4.8점(741건)")
-                st.info("⚠︎ 자극 가능성 있으므로 개인 피부 상태 확인 필요")
-                st.info("⚠︎ 판매가는 행사에 따라 변경될 수 있음!")
+                st.info(" ⚠︎ ̖́-주의사항 : 대부분의 사람에게는 자극이 없거나 보통이지만 개인 피부 민감도에 따라 자극이나 알레르기 반응이 있을 수 있음")
+                st.info("⚠︎ ̖́-주의사항 : 판매가는 올리브영 행사에 따라 변경될수 있음!")
 
         elif skin == "지성":
             st.write('지성 피부는 피부 번들거림이 잘 생긴다는 특징이 있습니다.')
@@ -91,7 +91,7 @@ if name:
                 st.session_state["show_oily"] = True
             if st.session_state.get("show_oily", False):
                 st.divider()
-                st.write("예시 제품:")
+                st.write("추천 제품:")
                 st.write("1) 라로슈포제 - 에빠끌라포밍 젤")
                 st.write("  올리브영 판매가 : 31000 원")
                 st.write("  올리브영 평점 : 4.8점(1099건)")
@@ -99,8 +99,8 @@ if name:
                 st.write("2) 이니스프리 - 히알루론산 그린티 씨드 수분크림 50ml")
                 st.write("  올리브영 판매가 : 27000 원")
                 st.write("  올리브영 평판 : 4.8점(741건)")
-                st.info("⚠︎ 자극 가능성 있으므로 개인 피부 상태 확인 필요")
-                st.info("⚠︎ 판매가는 행사에 따라 변경될 수 있음!")
+                st.info(" ⚠︎ ̖́-주의사항 : 대부분의 사람에게는 자극이 없거나 보통이지만 개인 피부 민감도에 따라 자극이나 알레르기 반응이 있을 수 있음")
+                st.info("⚠︎ ̖́-주의사항 : 판매가는 올리브영 행사에 따라 변경될수 있음!")
 
         elif skin == "복합성":
             st.write('복합성 피부는 건성과 지성을 합친 타입 입니다.')
@@ -112,7 +112,7 @@ if name:
                 st.session_state["show_mix"] = True
             if st.session_state.get("show_mix", False):
                 st.divider()
-                st.write("예시 제품:")
+                st.write("추천천 제품:")
                 st.write("1) 이니스프리 - 히알루론산 그린티 씨드 수분크림 50ml")
                 st.write("  올리브영 판매가 : 27000 원")
                 st.write("  올리브영 평판 : 4.8점(4522건)")
@@ -120,8 +120,8 @@ if name:
                 st.write("2) 제로이드 수딩 크림 80ml 기획")
                 st.write("  올리브영 판매가 : 38,000 원")
                 st.write("  올리브영 평판 : 4.8점(741건)")
-                st.info("⚠︎ 자극 가능성 있으므로 개인 피부 상태 확인 필요")
-                st.info("⚠︎ 판매가는 행사에 따라 변경될 수 있음!")
+                st.info(" ⚠︎ ̖́-주의사항 : 대부분의 사람에게는 자극이 없거나 보통이지만 개인 피부 민감도에 따라 자극이나 알레르기 반응이 있을 수 있음")
+                st.info("⚠︎ ̖́-주의사항 : 판매가는 올리브영 행사에 따라 변경될수 있음!")
 
         elif skin == "민감성":
             st.write('민감성 피부는 외부 자극에 민감하게 반응해 쉽게 붉어지거나 따가움을 느끼며, 자극이 적은 제품을 사용해야 합니다.')
@@ -131,7 +131,7 @@ if name:
                 st.session_state["show_sensitive"] = True
             if st.session_state.get("show_sensitive", False):
                 st.divider()
-                st.write("예시 제품:")
+                st.write("추천 제품:")
                 st.write("1) 웰라쥬 - 리얼 히알루로닉 블루 100 앰플 75ml 더블 기획")
                 st.write("  올리브영 판매가 : 50,000 원")
                 st.write("  올리브영 평판 : 4.9점(2,596건)")
@@ -139,8 +139,8 @@ if name:
                 st.write("2) 제로이드 수딩 크림 80ml 기획")
                 st.write("  올리브영 판매가 : 38,000 원")
                 st.write("  올리브영 평판 : 4.8점(4522건)")
-                st.info("⚠︎ 자극 가능성 있으므로 개인 피부 상태 확인 필요")
-                st.info("⚠︎ 판매가는 행사에 따라 변경될 수 있음!")
+                st.info(" ⚠︎ ̖́-주의사항 : 대부분의 사람에게는 자극이 없거나 보통이지만 개인 피부 민감도에 따라 자극이나 알레르기 반응이 있을 수 있음")
+                st.info("⚠︎ ̖́-주의사항 : 판매가는 올리브영 행사에 따라 변경될수 있음!")
 
         elif skin == "중성":
             st.write("중성 피부는 유수분 밸런스가 잘 맞아 트러블이 적습니다.")
